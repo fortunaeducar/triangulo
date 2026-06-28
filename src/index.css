@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom premium scrollbar in Artistic Flair theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #CCFF00;
+}
+
+/* Artistic Flair styles */
+.text-neon-glow {
+  color: #CCFF00;
+  text-shadow: 0 0 15px rgba(204, 255, 0, 0.5);
+}
+
+.bg-neon {
+  background-color: #CCFF00;
+}
+
+.text-neon {
+  color: #CCFF00;
+}
+
+.border-neon-dim {
+  border-color: rgba(204, 255, 0, 0.15);
+}
+
+.border-neon {
+  border-color: #CCFF00;
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8);
+}
+
+.stroke-text-neon {
+  -webkit-text-stroke: 1px #CCFF00;
+}
+
+.card-premium {
+  background: rgba(17, 17, 17, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-premium:hover {
+  border-color: #CCFF00;
+  box-shadow: 0 12px 30px -10px rgba(204, 255, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Marquee continuous scroll animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.glow-bg {
+  background-color: #0B0B0B;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(204, 255, 0, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(204, 255, 0, 0.03) 0%, transparent 55%);
+}
+
