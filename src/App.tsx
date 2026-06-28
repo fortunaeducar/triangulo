@@ -86,7 +86,7 @@ export default function App() {
   const [chatHistory, setChatHistory] = useState<ChatMessage[]>([
     {
       role: "model",
-      text: "Olá! Sou Max Mazewski, o seu Mentor Imobiliário. Com minha gravata borboleta verde-lima, trago a ciência exata para o seu patrimônio. Como posso te alavancar hoje?"
+      text: "Olá! Sou Max Mazewski, o seu Mentor Imobiliário. Com minha gravata borboleta, trago a ciência exata para o seu patrimônio. Como posso te alavancar hoje?"
     }
   ]);
   const [isSendingToChat, setIsSendingToChat] = useState<boolean>(false);
@@ -592,7 +592,7 @@ export default function App() {
                   </div>
                   <div>
                     <h5 className="text-white font-bold text-sm">Microzonas Privilegiadas</h5>
-                    <p className="text-xs text-white/50 mt-1">Como identificar locais imunes à depreciação de mercado usando o conceito de fosso econômico de Warren Buffett.</p>
+                    <p className="text-xs text-white/50 mt-1">Como identificar locais imunes à depreciação de mercado usando o conceito de trincheira econômica de Warren Buffett.</p>
                   </div>
                 </div>
 
@@ -611,7 +611,7 @@ export default function App() {
                     <Cpu className="w-4 h-4" />
                   </div>
                   <div>
-                    <h5 className="text-white font-bold text-sm">IA e Escala de Mídia</h5>
+                    <h5 className="text-white font-bold text-sm">Tecnologia e Escala de Mídia</h5>
                     <p className="text-xs text-white/50 mt-1">Utilize nossa infraestrutura de funil com software inteligente para atrair leads de alta renda e qualificar contatos.</p>
                   </div>
                 </div>
@@ -716,7 +716,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Seção Proprietários B2C + Gerador de Laudo IA Real */}
+      {/* Seção Proprietários B2C + Gerador de Laudo Real */}
       <section id="proprietarios" className="py-24 border-b border-white/10 px-4 sm:px-12 bg-black/20">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-12 gap-12 items-center">
@@ -726,10 +726,10 @@ export default function App() {
               <div className="p-8 bg-[#111] border border-white/10 rounded-2xl relative">
                 
                 <h4 className="text-lg font-black uppercase tracking-tighter text-white mb-2 flex items-center gap-2">
-                  <Activity className="text-[#CCFF00] w-5 h-5" /> AVALIAÇÃO FÍSICA IA EM TEMPO REAL
+                  <Activity className="text-[#CCFF00] w-5 h-5" /> AVALIAÇÃO MERCADOLÓGICA EM TEMPO REAL
                 </h4>
                 <p className="text-xs text-white/50 mb-6">
-                  Insira os parâmetros básicos do seu patrimônio para que o Mentor IA de Max avalie instantaneamente a orientação e o conforto térmico.
+                  Insira os parâmetros básicos do seu patrimônio para que o Mentor de Max avalie instantaneamente a orientação e o conforto térmico.
                 </p>
 
                 <form onSubmit={handleEvaluateProperty} className="space-y-4">
@@ -858,7 +858,7 @@ export default function App() {
               </h2>
               
               <p className="text-white/70 mb-8 font-light leading-relaxed text-base sm:text-lg">
-                Muitos proprietários sofrem ao expor o seu maior bem material em dezenas de imobiliárias de baixo nível. Isso gera depreciação, leilão informal de preços e desgaste de imagem. Nossa assessoria realiza avaliações de engenharia térmica e de insolação sob regime de **exclusividade com proteção ativa de valor**.
+                Muitos proprietários sofrem ao expor o seu maior bem material em dezenas de imobiliárias. Isso gera depreciação, leilão informal de preços e desgaste de imagem. Nossa assessoria realiza avaliações de estratégia térmica e de insolação sob regime de **exclusividade com proteção ativa de valor**.
               </p>
 
               <div className="space-y-6 mb-8">
@@ -878,7 +878,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="text-white font-bold text-sm">Estudo de Orientação Científica</h4>
-                    <p className="text-xs text-white/50 mt-1">Laudo técnico estruturado demonstrando o valor térmico do imóvel e o alinhamento com a ventilação regional.</p>
+                    <p className="text-xs text-white/50 mt-1">Laudo técnico estruturado demonstrando o valor térmico do imóvel.</p>
                   </div>
                 </div>
 
@@ -903,7 +903,7 @@ export default function App() {
                 <div className="flex items-center gap-2">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#CCFF00] animate-ping"></span>
                   <h4 className="text-base font-black tracking-widest text-[#CCFF00] uppercase font-mono">
-                    Laudo Oficial Gerado com Sucesso via IA
+                    Laudo Oficial Gerado com Sucesso
                   </h4>
                 </div>
                 <button 
@@ -978,7 +978,7 @@ export default function App() {
             
             <div className="w-48 h-48 sm:w-60 sm:h-60 rounded-full border-4 border-[#CCFF00]/20 p-2 flex items-center justify-center bg-black/60 shadow-2xl shrink-0 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#CCFF00]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              {/* Representação icônica estilizada de Max com sua Gravata Borboleta Verde-Lima */}
+              {/* Representação icônica estilizada de Max com sua Gravata Borboleta */}
               <div className="flex flex-col items-center justify-center text-center">
                 <Users className="w-16 h-16 text-white/20 mb-3" />
                 <span className="text-xs text-white/40 uppercase tracking-widest font-mono">Max Mazewski</span>
@@ -1000,7 +1000,7 @@ export default function App() {
               </h3>
               
               <p className="text-white/60 mb-6 leading-relaxed font-light">
-                No mercado imobiliário e financeiro tradicional, dominado por commodities humanas de ternos cinzentos e idênticos, a gravata borboleta verde-lima é a minha quebra de padrão visual cirúrgica. Ela simboliza exatidão científica, elegância técnica e o compromisso didático de quem é primeiro um **educador financeiro** e, por consequência, um consultor de elite para a engenharia de venda e estruturação de renda passiva sólida para os seus maiores ativos.
+                No mercado imobiliário e financeiro tradicional, dominado por commodities humanas de ternos cinzentos e idênticos, a gravata borboleta é a minha quebra de padrão visual. Ela simboliza exatidão científica, elegância técnica e o compromisso didático de quem é primeiro um **educador financeiro** e, por consequência, um consultor de elite para a estratégia de venda e estruturação de renda passiva sólida para os seus maiores ativos.
               </p>
 
               <div className="flex flex-wrap gap-4 text-xs font-mono text-[#CCFF00] font-bold">
@@ -1277,7 +1277,7 @@ export default function App() {
               MENTOR IMOBILIÁRIO • © 2026 ECOSSISTEMA TRIÂNGULO
             </p>
             <p className="mt-1">
-              Laudo técnico de insolação, conforto físico-térmico e assessoria de alocação de saída em Porto Alegre, RS.
+              Porto Alegre, RS.
             </p>
           </div>
           <div className="flex gap-4">
